@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="clothes-hanger.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./radio-btn-css.css" />
+    <link rel="stylesheet" href="./responsive.css">
+    
+    <title>Klotify</title>
+  </head>
+  <body>
+    <section id="home" class="home">
+      <div class="container">
+        <nav>
+          <div>
+            <p class="logo">Klotiffy</p>
+          </div>
+          <ul class="nav-mid">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#trending">Trending</a></li>
+          </ul>
+          <div class="nav-end">
+            <a href="#contact">Contact</a>
+            <button class="login-btn">Login</button>
+          </div>
+          <div class="hamburger" id="home-nav-btn">
+            <img src="./menu-icon.svg" alt="" srcset="" >
+          </div> 
+         
+        </nav>
+        <div class="mob-view hide" id="home-nav">
+          <ul style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column;">
+            <li style="margin-top: 10px;"><a href="#home" >Home</a></li>
+            <li style="margin-top: 10px;"><a href="#category">Categories</a></li>
+            <li style="margin-top: 10px;"><a href="#trending">Trending</a></li>
+          </ul>
+          <div style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column; align-items: center; justify-content: flex-start;">
+            <a  style="margin-top: 10px; color:#fff" href="#contact">Contact</a>
+            <button  style="margin-top: 10px;" class="login-btn">Login</button>
+          </div>
+        </div>
+        <main class="hero">
+          <div class="hero-first">
+            <!-- say some shit  -->
+            <p>Find all the trending Clothes for Men in the world!</p>
+            <h5>Updated latest and competitive prices</h5>
+            <div class="hero-first-btn">
+              <button>Get the app</button>
+            </div>
+            <div class="hero-first-arrowBtn">
+              <button>
+                <img src="./left-arrow.svg" alt="" />
+              </button>
+              <button>
+                <img src="./right-arrow.svg" alt="" />
+              </button>
+            </div>
+          </div> 
+          <div class="hero-mid">
+            <img src="./niggah1.jpg" alt="" />
+          </div>
+          <div class="hero-second">
+            <!-- choose color  -->
+            <p>Choose color</p>
+            <div class="hero-second-color">
+              <div>
+                <input type="radio" class="blue-btn" name="blue" id="" />
+              </div>
+              <div>
+                <input type="radio" class="red-btn" name="red" id="" />
+              </div>
+              <div>
+                <input type="radio" class="yellow-btn" name="yellow" id="" />
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <section id="category" class="category container">
+   
+      <nav>
+        <div>
+          <p class="logo">Klotiffy</p>
+        </div>
+        <ul class="nav-mid">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#category">Categories</a></li>
+          <li><a href="#trending">Trending</a></li>
+        </ul>
+        <div class="nav-end">
+          <a href="#contact">Contact</a>
+          <button class="login-btn">Login</button>
+        </div>
+        <div class="hamburger" id="cat-nav-btn">
+          <img src="./menu-icon.svg" alt="" srcset="" >
+        </div> 
+       
+      </nav>
+      <div class="mob-view hide" id="cat-nav">
+        <ul style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column;">
+          <li style="margin-top: 10px;"><a href="#home" >Home</a></li>
+          <li style="margin-top: 10px;"><a href="#category">Categories</a></li>
+          <li style="margin-top: 10px;"><a href="#trending">Trending</a></li>
+        </ul>
+        <div style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column; align-items: center; justify-content: flex-start;">
+          <a  style="margin-top: 10px; color:#fff" href="#contact">Contact</a>
+          <button  style="margin-top: 10px;" class="login-btn">Login</button>
+        </div>
+      </div>
+        <main>
+          <h3>Categories</h3>
+          <div>
+            <div class="cat-hero-shirt-head">
+              <span
+                ><img
+                  src="./shirt-icon.svg"
+                  style="height: 30px; margin-right: 5px"
+                  alt=""
+              /></span>
+              <p>Shirts</p>
+            </div>
+            <div class="cat-hero-cards card-grid">
+              <div class="card card-shadow">
+                <div class="card-header card-image">
+                  <img src="./shirt1.jpg" />
+                </div>
+                <div class="card-footer">
+                  <span style="color: rgb(12, 76, 87); font-weight: bold"
+                    >Price:</span
+                  >
+                  <span>Rs 450</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="card card-shadow">
+                <div class="card-header card-image">
+                  <img src="./shirt2.jpg" />
+                </div>
+                <div class="card-footer">
+                  <span style="color: rgb(12, 76, 87); font-weight: bold"
+                    >Price:</span
+                  >
+                  <span>Rs 180</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="card card-shadow">
+                <div class="card-header card-image">
+                  <img src="./shirt3.jpg" />
+                </div>
+                <div class="card-footer">
+                  <span style="color: rgb(12, 76, 87); font-weight: bold"
+                    >Price:</span
+                  >
+                  <span>Rs 170.50</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="load-more">
+                <button>
+                  <img src="./right-arrow.svg" alt="" />
+                </button>
+                <p>Load more shirts</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="cat-hero-shirt-head">
+              <span
+                ><img
+                  src="./pants.svg"
+                  style="height: 30px; margin-right: 5px; color: #008b8b"
+                  alt=""
+              /></span>
+              <p>Pants</p>
+            </div>
+            <div class="cat-hero-cards card-grid">
+              <div class="card card-shadow">
+                <div class="card-header card-image">
+                  <img src="./pants1.jpg" />
+                </div>
+                <div class="card-footer">
+                  <span style="color: rgb(12, 76, 87); font-weight: bold"
+                    >Price:</span
+                  >
+                  <span>Rs 1050</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="card card-shadow">
+                <div class="card-header card-image">
+                  <img src="./pants2.jpg" />
+                </div>
+                <div class="card-footer">
+                  <span style="color: rgb(12, 76, 87); font-weight: bold"
+                    >Price:</span
+                  >
+                  <span>Rs 800</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="card card-shadow">
+                <div class="card-header card-image">
+                  <img src="./pants3.jpg" />
+                </div>
+                <div class="card-footer">
+                  <span style="color: rgb(12, 76, 87); font-weight: bold"
+                    >Price:</span
+                  >
+                  <span>Rs 950</span>
+                  <button class="buy-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="load-more">
+                <button>
+                  <img src="./right-arrow.svg" alt="" />
+                </button>
+                <p>Load more pants</p>
+              </div>
+            </div>
+        </main>
+      </div>
+    </section>
+    <section id="trending" class="container trending">
+     
+      <nav>
+        <div>
+          <p class="logo">Klotiffy</p>
+        </div>
+        <ul class="nav-mid">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#category">Categories</a></li>
+          <li><a href="#trending">Trending</a></li>
+        </ul>
+        <div class="nav-end">
+          <a href="#contact">Contact</a>
+          <button class="login-btn">Login</button>
+        </div>
+        <div class="hamburger" id="trend-nav-btn">
+          <img src="./menu-icon.svg" alt="" srcset="" >
+        </div> 
+       
+      </nav>
+      <div class="mob-view hide" id="trend-nav" style="margin-bottom: 30px;">
+        <ul style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column;">
+          <li style="margin-top: 10px;"><a href="#home" >Home</a></li>
+          <li style="margin-top: 10px;"><a href="#category">Categories</a></li>
+          <li style="margin-top: 10px;"><a href="#trending">Trending</a></li>
+        </ul>
+        <div style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column; align-items: center; justify-content: flex-start;">
+          <a  style="margin-top: 10px; color:#fff" href="#contact">Contact</a>
+          <button  style="margin-top: 10px;" class="login-btn">Login</button>
+        </div>
+      </div>
+      <main>
+        <h3>
+          Trendings
+          <span><img src="./agun-icon.svg" height="20" width="20" /></span>
+        </h3>
+        <div>
+          <div class="cat-hero-shirt-head">
+            <span
+              ><img
+                src="./shirt-icon.svg"
+                style="height: 30px; margin-right: 5px"
+                alt=""
+            /></span>
+            <p>Shirts</p>
+          </div>
+          <div class="cat-hero-cards card-grid">
+            <div class="card card-shadow">
+              <div class="card-header card-image">
+                <img src="./shirt1.jpg" />
+              </div>
+              <div class="card-footer">
+                <span style="color: rgb(12, 76, 87); font-weight: bold"
+                  >Price:</span
+                >
+                <span>Rs 450</span>
+                <button class="buy-btn">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-shadow">
+              <div class="card-header card-image">
+                <img src="./shirt2.jpg" />
+              </div>
+              <div class="card-footer">
+                <span style="color: rgb(12, 76, 87); font-weight: bold"
+                  >Price:</span
+                >
+                <span>Rs 180</span>
+                <button class="buy-btn">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-shadow">
+              <div class="card-header card-image">
+                <img src="./shirt3.jpg" />
+              </div>
+              <div class="card-footer">
+                <span style="color: rgb(12, 76, 87); font-weight: bold"
+                  >Price:</span
+                >
+                <span>Rs 170.50</span>
+                <button class="buy-btn">Buy Now</button>
+              </div>
+            </div>
+            <div class="load-more">
+              <button>
+                <img src="./right-arrow.svg" alt="" />
+              </button>
+              <p>Load more shirts</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="cat-hero-shirt-head">
+            <span
+              ><img
+                src="./pants.svg"
+                style="height: 30px; margin-right: 5px; color: #008b8b"
+                alt=""
+            /></span>
+            <p>Pants</p>
+          </div>
+          <div class="cat-hero-cards card-grid">
+            <div class="card card-shadow">
+              <div class="card-header card-image">
+                <img src="./pants1.jpg" />
+              </div>
+              <div class="card-footer">
+                <span style="color: rgb(12, 76, 87); font-weight: bold"
+                  >Price:</span
+                >
+                <span>Rs 1050</span>
+                <button class="buy-btn">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-shadow">
+              <div class="card-header card-image">
+                <img src="./pants2.jpg" />
+              </div>
+              <div class="card-footer">
+                <span style="color: rgb(12, 76, 87); font-weight: bold"
+                  >Price:</span
+                >
+                <span>Rs 800</span>
+                <button class="buy-btn">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-shadow">
+              <div class="card-header card-image">
+                <img src="./pants3.jpg" />
+              </div>
+              <div class="card-footer">
+                <span style="color: rgb(12, 76, 87); font-weight: bold"
+                  >Price:</span
+                >
+                <span>Rs 950</span>
+                <button class="buy-btn">Buy Now</button>
+              </div>
+            </div>
+            <div class="load-more">
+              <button>
+                <img src="./right-arrow.svg" alt="" />
+              </button>
+              <p>Load more pants</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <section class="container contact " id="contact"> 
+      <nav>
+        <div>
+          <p class="logo">Klotiffy</p>
+        </div>
+        <ul class="nav-mid">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#category">Categories</a></li>
+          <li><a href="#trending">Trending</a></li>
+        </ul>
+        <div class="nav-end">
+          <a href="#contact">Contact</a>
+          <button class="login-btn">Login</button>
+        </div>
+        <div class="hamburger" id="contact-nav-btn">
+          <img src="./menu-icon.svg" alt="" srcset="" >
+        </div> 
+       
+      </nav>
+      <div class="mob-view hide" id="contact-nav" style="margin-bottom: 30px;">
+        <ul style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column;">
+          <li style="margin-top: 10px;"><a href="#home" >Home</a></li>
+          <li style="margin-top: 10px;"><a href="#category">Categories</a></li>
+          <li style="margin-top: 10px;"><a href="#trending">Trending</a></li>
+        </ul>
+        <div style="display: flex; font-family: Montserrat, sans-serif; flex-direction: column; align-items: center; justify-content: flex-start;">
+          <a  style="margin-top: 10px; color:#fff" href="#contact">Contact</a>
+          <button  style="margin-top: 10px;" class="login-btn">Login</button>
+        </div>
+      </div>
+       <div class="contact-inner">
+        <div class=" contact-container">
+          <div>
+            <p>Feel free to contact us at</p>
+           <p class="con-num">+91-101010101010</p> 
+          </div> 
+          <div class="cont-inp"> 
+            <label for="">Enter email to get notified for latest updates</label>
+            <input type="text" placeholder="Email">  
+            <button>Submit</button>
+          </div>
+          <div class="built-by">
+            <p>Made by <span>Himankshu Bikash Changmai</span></p>
+          </div>
+      </div>
+       </div>
+       
+       
+    </section> 
+    <script>  
+      const home_nav = document.getElementById('home-nav') ; 
+      const home_nav_btn = document.getElementById('home-nav-btn') ;
+
+      const cat_nav = document.getElementById('cat-nav') ; 
+      const cat_nav_btn = document.getElementById('cat-nav-btn') ;
+
+      const trend_nav = document.getElementById('trend-nav') ; 
+      const trend_nav_btn = document.getElementById('trend-nav-btn') ;
+
+      const contact_nav = document.getElementById('contact-nav') ; 
+      const contact_nav_btn = document.getElementById('contact-nav-btn') ;
+      function ToggleHamburger(nav_type , nav_type_btn){
+       
+        if(nav_type.classList.contains('hide')){
+          nav_type.classList.remove('hide')
+          nav_type.classList.add('show') 
+
+        }
+        else {
+          nav_type.classList.remove('show')
+          nav_type.classList.add('hide')
+        } 
+      } 
+
+      home_nav_btn.addEventListener('click',(event) => {
+        ToggleHamburger(home_nav,home_nav_btn)
+      }) 
+      cat_nav_btn.addEventListener('click',event => {
+        ToggleHamburger(cat_nav,cat_nav_btn)
+      }) 
+      trend_nav_btn.addEventListener('click',event => {
+        ToggleHamburger(trend_nav,trend_nav_btn)
+      }) 
+      contact_nav_btn.addEventListener('click',event => {
+        ToggleHamburger(contact_nav,contact_nav_btn)
+      })
+      console.log(home_nav.classList);
+    </script>
+  </body>
+</html>
