@@ -93,12 +93,12 @@ ul li {
   font-family: "Montserrat Alternates", sans-serif;
   margin-top: 8em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .hero-first p {
   font-size: 28px;
-  width: 27rem;
+  max-width: 12em;
   word-wrap: break-word;
 }
 /* .hero-second{
@@ -107,12 +107,13 @@ ul li {
 .hero-mid img {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-  height: 400px;
+  height: 400px; 
   opacity: 0.7;
-  margin-right: 20em;
+  margin-right: 7em;
 }
 .hero-second p {
   font-size: 20px;
+  width: 10em;
 }
 .hero-second-color {
   margin-top: 10px;
@@ -271,16 +272,15 @@ ul li {
 }
 
 .contact { 
-  height: 100%;
+  height: 100vh;
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(0, 152, 155, 1) 0.1%,
     rgba(0, 94, 120, 1) 94.2%
   );
-
 }
 .contact-inner {
-  height: 100%;
+  margin-top: 4em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -293,9 +293,10 @@ ul li {
   flex-direction: column; 
   align-items: center;
   font-family: "Montserrat Alternates", sans-serif;
-  width: 400px;
-  height: 300px;
- 
+  width: 100%;
+  padding: 15px;
+ margin-top: 4em; 
+ max-width: 400px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
